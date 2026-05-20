@@ -1,0 +1,396 @@
+<!-- Criado por Samuel Augusto todos os direitos reservados 2025 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Porfolio Profissional da neuropsicologa Patricia">
+    <meta name="keywords" content="psicologia, neuropsicologa, porfolio">
+    <meta name="author" content="Patricia">
+    <link rel="icon" href="Images/..." type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Porfolio | Patricia</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="name">
+            <a href="#" class="logo">Neuropsicóloga<br>Patricia Souza<br></a>
+            <span>CRP 17/4377.</span>
+        </div>
+        <nav class="navbar">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#diferenciais">Diferenciais</a>
+            <a href="#atendimentos">Atendimentos</a>
+            <a href="#dicas">Dicas</a>
+            <a href="#contatos">Contatos</a>
+        </nav>
+        <a href="#contatos" class="btn">Agendar</a>
+        <div id="menu_btn" class="fas fa-bars"></div>
+    </header>
+    <!-- Home Section >>> -->
+    <section id="inicio" class="inicio">
+        <div class="content">
+            <p class="text">Conheça todas as teorias, domine todas as técnicas, mas ao tocar uma alma humana, seja apenas outra alma humana.<span><br>Carl Gustav Jung</span></p>
+            <a href="#contatos" class="btn">Agendar Agora</a>
+        </div>
+        <div class="image">
+            <img src="Images/Inicio.jpeg" alt="">
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="sobre" id="sobre">
+        <h1 class="heading">Sobre <span>Mim</span></h1>
+        <div class="content_1">
+            <div class="image">
+                <img src="Images/inicio-foto.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Quem sou eu?</h3>
+                <p>Olá, eu sou Patrícia Souza, sou Neuropsicóloga e Psicóloga Clínica. Sou apaixonada pela mente humana e seus desafios.<br>
+                Como Neuropsicóloga eu trabalho com a Avaliação Neuropsicológica, atendendo um  público entre (04 a 74 anos).<br>
+                Como Psicóloga Clinica atendo adolescentes e adultos. Minha abordagem é a TCC (Terapia Cognitiva e Comportamental) que busca compreender a dinâmica entre o pensamento e o comportamento.<br>
+                Ao longo de 20 anos de estudos, tenho adquirido conhecimentos e habilidades que facilitam minha compreensão sobre o ser humano e suas dinâmicas, como por exemplo a Inteligência Emocional, a Neurociência e a Filosofia.<br>
+                Meu trabalho é sempre pautado na ética e busca por sua Saúde Mental. Para mim, é uma grande satisfação poder te acolher e  acrescentar à sua vida.<br>
+                <span>Patricia Souza<br>Neuropsicológica<br>CRP 17/4377</span></p>
+                <a href="#contatos" class="btn">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+    <!-- Service Section >>> -->
+    <section id="servicos" class="servicos">
+        <h1 class="heading">Meus <span>Serviços</span></h1>
+        <div class="box_content">
+            <div class="box">
+                <img src="Images/a1.jpg" alt="" onclick="openModal('modal1')">
+                <h3>Avaliação Neuropsicológica</h3>
+                <button class="btn" id="btn1" onclick="openModal('modal1')">Saiba Mais</button>
+            </div>
+            <div class="box">
+                <img src="Images/a2.jpg" alt="" onclick="openModal('modal2')">
+                <h3>Reabilitação Neurocognitiva</h3>
+                <button class="btn" id="btn2" onclick="openModal('modal2')">Saiba Mais</button>
+            </div>
+            <div class="box">
+                <img src="Images/a3.jpg" alt="" onclick="openModal('modal3')">
+                <h3>Psicoterapia Presencial</h3>
+                <button class="btn" id="btn3" onclick="openModal('modal3')">Saiba Mais</button>
+            </div>
+            <div class="box">
+                <img src="Images/a4.jpg" alt="" onclick="openModal('modal4')">
+                <h3>Psicoterapia Para Adolescentes</h3>
+                <button class="btn" id="btn4" onclick="openModal('modal4')">Saiba Mais</button>
+            </div>
+            <div class="box">
+                <img src="Images/a5.jpg" alt="" onclick="openModal('modal5')">
+                <h3>Palestras</h3>
+                <button class="btn" id="btn5" onclick="openModal('modal5')">Saiba Mais</button>
+            </div>
+            <div class="box">
+                <img src="Images/a6.jpg" alt="" onclick="openModal('modal6')">
+                <h3>Psicoterapia Online</h3>
+                <button class="btn" id="btn6" onclick="openModal('modal6')">Saiba Mais</button>
+            </div>
+            <div id="modal1" class="modal">
+                <div class="modal_box">
+                    <span class="close" onclick="closeModal('modal1')">&times;</span>
+                    <h3>Avaliação Neuropsicológica</h3>
+                    <h4>O que é a Avaliação Neuropsicológica e para que serve?</h4>
+                    <p>A Avaliação Neuropsicológica é um tipo de investigação que busca entender melhor como está o funcionamento do seu cérebro em áreas como atenção, memória, linguagem, raciocínio, planejamento, comportamento e emoções. Ela é feita por um(a) psicólogo(a) especializado(a) em neuropsicologia, utilizando entrevistas e testes específicos para avaliar essas funções.<br>
+                    Diferente de exames médicos como tomografia ou ressonância, que mostram a parte física do cérebro, a Avaliação Neuropsicológica observa <strong>como o cérebro está funcionando na prática,</strong> no seu dia a dia. Isso ajuda a identificar possíveis dificuldades cognitivas ou comportamentais que possam estar impactando a sua vida.</p>
+                    <h4>Quando ela é indicada?</h4>
+                    <p>A Avaliação Neuropsicológica pode ser útil em diferentes situações, como:</p>
+                    <ul>
+                        <li>• Dificuldades de atenção, memória ou aprendizado</li>
+                        <li>• Suspeita de TDAH (Transtorno de Déficit de Atenção e Hiperatividade)</li>
+                        <li>• Transtornos de aprendizagem</li>
+                        <li>• Avaliação após lesões cerebrais, AVC ou traumatismos cranianos</li>
+                        <li>• Diagnóstico de demências, como Alzheimer</li>
+                        <li>• Investigação de questões emocionais que afetam o pensamento ou o comportamento</li>
+                    </ul>
+                    <h4>Como ela funciona?</h4>
+                    <p>O processo é feito em etapas. Primeiro, acontece uma conversa (entrevista inicial) para entender suas queixas e seu histórico. Depois, são aplicados testes (parecidos com atividades de papel e lápis ou computador) que avaliam diferentes áreas cognitivas. Em seguida, o profissional analisa os resultados e prepara um laudo, explicando os achados de forma clara. Esse laudo pode ser compartilhado com outros profissionais da saúde, como médicos ou terapeutas, para ajudar no seu tratamento.</p>
+                    <h4>Quais são os benefícios?</h4>
+                    <ul>
+                        <li>• <strong>Compreensão mais profunda das dificuldades:</strong> A avaliação mostra o que está por trás de certos comportamentos ou dificuldades, ajudando a entender melhor o que está acontecendo.</li>
+                        <li>• <strong>Direcionamento para o tratamento correto:</strong> Com base nos resultados, é possível indicar os tratamentos mais adequados, como psicoterapia, reabilitação, apoio escolar, entre outros.</li>
+                        <li>• <strong>Apoio para decisões importantes:</strong> Em alguns casos, a avaliação ajuda em decisões sobre escola, trabalho, aposentadoria, tratamentos médicos, etc.</li>
+                        <li>• <strong>Autoconhecimento:</strong> Muitas pessoas relatam que a avaliação as ajuda a se conhecer melhor e a lidar com suas dificuldades de forma mais leve e consciente.</li>
+                    </ul>
+                    <a href="#contatos" class="btn">Agendar Agora</a>
+                </div>
+            </div>
+            <div id="modal2" class="modal">
+                <div class="modal_box">
+                    <span class="close" onclick="closeModal('modal2')">&times;</span>
+                    <h3>Reabilitação Neurocognitiva<br>Carinhosamente chamada de REAB.</h3>
+                    <h4>O que é a Reabilitação Neurocognitiva e como ela pode te ajudar?</h4>
+                    <p>A Reabilitação Neurocognitiva é um processo terapêutico que tem como objetivo <strong>ajudar a melhorar ou compensar dificuldades cognitivas,</strong> como problemas de atenção, memória, linguagem, raciocínio ou planejamento. Essas dificuldades podem surgir após lesões no cérebro (como AVC ou traumatismo), em condições como TDAH, autismo, demência, ou mesmo em casos de transtornos psiquiátricos e emocionais.<br>
+                    Esse tipo de reabilitação é feito por profissionais especializados (como psicólogos, neuropsicólogos, fonoaudiólogos, terapeutas ocupacionais, entre outros) e é sempre adaptado às necessidades de cada pessoa.</p>
+                    <h4>Como funciona na prática?</h4>
+                    <p>A reabilitação acontece por meio de atividades e exercícios direcionados, que estimulam as áreas do cérebro que precisam ser fortalecidas. Também envolve estratégias para lidar com dificuldades no dia a dia — como criar rotinas, usar lembretes, ou desenvolver novas formas de resolver problemas.<br>
+                    Além disso, o trabalho pode incluir a <strong>orientação de familiares,</strong> para que saibam como ajudar no processo e tornar o ambiente mais favorável à recuperação.</p>
+                    <h4>Principais benefícios da Reabilitação Neurocognitiva:</h4>
+                    <ul>
+                        <li>• <strong>Melhora nas funções cognitivas:</strong> A reabilitação ajuda a fortalecer áreas como atenção, memória, linguagem e raciocínio, o que reflete em uma maior autonomia e qualidade de vida.</li>
+                        <li>• <strong>Aumento da independência no dia a dia:</strong> Pequenas tarefas como organizar compromissos, lembrar de atividades ou manter o foco podem se tornar mais fáceis com a prática de estratégias adequadas.</li>
+                        <li>• <strong>Redução de impactos emocionais:</strong> Ao compreender melhor suas dificuldades e ver progresso, a pessoa tende a se sentir mais confiante e menos frustrada.</li>
+                        <li>• <strong>Adaptação de habilidades:</strong> Quando não é possível recuperar totalmente uma função, a reabilitação ensina formas alternativas de lidar com as tarefas — sempre respeitando o ritmo e as capacidades individuais.</li>
+                        <li>• <strong>Apoio integral:</strong> O processo considera não só o funcionamento do cérebro, mas também o contexto emocional, social e familiar da pessoa.</li>
+                    </ul>
+                    <a href="#contatos" class="btn">Agendar Agora</a>
+                </div>
+            </div>
+            <div id="modal3" class="modal">
+                <div class="modal_box">
+                    <span class="close" onclick="closeModal('modal3')">&times;</span>
+                    <h3>Psicoterapia Presencial</h3>
+                    <h4>O que é a Psicoterapia Presencial?</h4>
+                    <p><strong>A psicoterapia individual presencial</strong> é um método científico eficaz, que busca através da escuta terapêutica, buscar  componentes significativos, oriundos do inconsciente e visando propiciar a tomada de estado consciente, permitindo com que os indivíduos consigam ter maior poder de autoconhecimento e a partir de então, passarem a administrar melhor suas vidas assim como suas escolhas.<br>
+                    Minha abordagem é a <strong>TCC (Terapia Cognitivo-Comportamental)</strong> que é um tipo de psicoterapia que ajuda você a entender como seus pensamentos influenciam seus sentimentos e comportamentos. Muitas vezes, pensamos de forma automática e nem percebemos como esses pensamentos podem nos deixar mais ansiosos, tristes ou estressados. A TCC ajuda a identificar esses pensamentos e a trabalhar com eles de forma mais saudável.<br>
+                    Diferente de terapias que focam mais no passado, a TCC costuma olhar para o presente, buscando soluções práticas para os desafios do dia a dia. O processo é feito em parceria com o psicólogo, de maneira ativa e colaborativa. Você aprende estratégias que pode usar fora das sessões, no seu dia a dia, o que torna o tratamento ainda mais eficaz.</p>
+                    <h4>Benefícios da TCC:</h4>
+                    <ul>
+                        <li>• <strong>Alívio dos Sintomas Emocionais:</strong> A TCC é muito eficaz para lidar com tratar ansiedade, depressão, medos, preocupações excessivas e muitos outros problemas emocionais.</li>
+                        <li>• <strong>Mais Equilíbrio Emocional:</strong> Através das técnicas certas, você aprende a lidar melhor com situações difíceis e a reagir de forma mais tranquila e racional.</li>
+                        <li>• <strong>Melhora na Autoestima:</strong> Ao mudar a forma  de como você se vê e interpreta as situações,   a TCC  vai ajudá-lo a  se sentir mais confiante e seguro para tomar decisões no dia a dia.</li>
+                        <li>• <strong>Soluções práticas para o dia a dia:</strong> A terapia ensina técnicas que você pode aplicar em casa, no trabalho, nas relações com outras pessoas, o que faz diferença real na sua rotina e em seus resultados.</li>
+                    </ul>
+                    <a href="#contatos" class="btn">Agendar Agora</a>
+                </div>
+            </div>
+            <div id="modal4" class="modal">
+                <div class="modal_box">
+                    <span class="close" onclick="closeModal('modal4')">&times;</span>
+                    <h3>Psicoterapia Para Adolescentes:</h3>
+                    <h4>O que é psicoterapia para adolescentes?</h4>
+                    <p>A adolescência é uma fase de muitas mudanças, no corpo, nas emoções, nas relações e na forma de enxergar o mundo. É um período de descobertas, mas também de dúvidas, inseguranças e, às vezes, conflitos internos e externos. Por isso, a psicoterapia pode ser uma ferramenta muito importante para ajudar o adolescente a atravessar essa fase com mais equilíbrio e autoconhecimento.<br>
+                    A psicoterapia é um espaço seguro, sigiloso e acolhedor, onde o adolescente pode falar livremente sobre seus sentimentos, dificuldades, pensamentos e experiências, sem julgamentos. O psicólogo atua como um apoio, ajudando a compreender o que está acontecendo e a encontrar formas mais saudáveis de lidar com os desafios do dia a dia.</p>
+                    <h4>Principais Benefícios da Psicoterapia Para Adolescentes:</h4>
+                    <ul>
+                        <li>• <strong>Autoconhecimento:</strong> A terapia ajuda o adolescente a entender melhor quem ele é, como pensa, sente e reage. Isso fortalece sua identidade e autoestima.</li>
+                        <li>• <strong>Regulação emocional:</strong> Com apoio psicológico, o adolescente aprende a lidar com emoções intensas como raiva, tristeza, ansiedade ou frustração, desenvolvendo mais equilíbrio emocional.</li>
+                        <li>• <strong>Melhora nos relacionamentos:</strong> A terapia pode ajudar a melhorar a comunicação com os pais, irmãos, amigos ou professores, além de trabalhar questões de timidez, conflitos e habilidades sociais.</li>
+                        <li>• <strong>Apoio diante de crises:</strong> Em casos de bullying, separação dos pais, luto, mudanças de escola ou outros acontecimentos difíceis, o psicólogo oferece suporte para atravessar esses momentos com mais segurança.</li>
+                        <li>• <strong>Prevenção de transtornos emocionais:</strong> A psicoterapia pode ajudar a identificar sinais iniciais de depressão, ansiedade, TDAH, entre outros, favorecendo um cuidado precoce e mais eficaz.</li>
+                        <li>• <strong>Tomada de decisões e construção de futuro:</strong> O espaço terapêutico também ajuda o adolescente a pensar sobre escolhas importantes, como carreira, sexualidade, valores e projetos de vida.</li>
+                    </ul>
+                    <a href="#contatos" class="btn">Agendar Agora</a>
+                </div>
+            </div>
+            <div id="modal5" class="modal">
+                <div class="modal_box">
+                    <span class="close" onclick="closeModal('modal5')">&times;</span>
+                    <h3>Palestrante em Saúde Mental </h3>
+                    <h4>Como funcionam as palestras?</h4>
+                    <p>sou <strong>psicóloga e neuropsicóloga,</strong> e atendo vários públicos, atuo com muito amor e dedicação na promoção da saúde mental  adolescentes e suas famílias. Ao longo da minha trajetória profissional, tenho me aprofundado nos desafios emocionais e comportamentais que surgem durante a adolescência, uma fase intensa, cheia de descobertas, mas também marcada por dúvidas, pressões e inseguranças.<br>
+                    Como palestrante, meu objetivo é <strong>levar informação de qualidade, acessível e sensível,</strong> ajudando pais, educadores e os próprios adolescentes a compreenderem melhor o que está por trás das emoções, comportamentos e dificuldades tão comuns nessa etapa da vida. Acredito que falar sobre saúde mental é uma forma de prevenir sofrimentos, desconstruir tabus e fortalecer vínculos.</p>
+                    <h4>Minhas palestras abordam temas como:</h4>
+                    <ul>
+                        <li>• Emoções na adolescência: o que está acontecendo comigo?</li>
+                        <li>• Ansiedade, tristeza, autoestima e autoconhecimento</li>
+                        <li>• O impacto das redes sociais e da pressão por desempenho</li>
+                        <li>• Como os pais e professores podem ser apoio emocional</li>
+                        <li>• A importância do cuidado psicológico e quando buscar ajuda</li>
+                        <li>• Neurodesenvolvimento e funções cognitivas na adolescência</li>
+                    </ul><br>
+                    <p>Mais do que teoria, trago reflexões práticas, acolhimento e ferramentas que podem ser aplicadas no dia a dia. Meu compromisso é contribuir para que adolescentes sejam vistos com empatia, escuta e compreensão, e para que tenham espaço para crescer com saúde emocional e autonomia.<br>
+                    Se você busca uma palestra com conteúdo técnico, mas com uma abordagem humana, sensível e conectada com a realidade dos jovens, será um prazer contribuir com sua escola, evento ou instituição.</p>
+                    <a href="#contatos" class="btn">Agendar Agora</a>
+                </div>
+            </div>
+            <div id="modal6" class="modal">
+                <div class="modal_box">
+                    <span class="close" onclick="closeModal('modal6')">&times;</span>
+                    <h3>Psicoterapia Online</h3>
+                    <h4>O que é a psicoterapia online?</h4>
+                    <p>O Conselho Federal de Psicologia  que é  órgão que regulamenta , orienta e fiscaliza a profissão de psicólogo no Brasil  iniciou autorizações a consultas psicológicas online desde 2018, com a Resolução CFP nº 011/18.<br>
+                    A partir da Pandemia por Covid-19 no ano de 2020, este método ficou bastante conhecido e se mostrou eficaz por sua flexibilidade. Contudo, Igualmente ao que ocorre em sessões presenciais, o psicólogo deve seguir o Código de Ética Profissional, mantendo o sigilo e a privacidade de tudo que será relatado nas conversas. Cada sessão será combinada entre psicólogo e cliente quanto ao dia, horário, tempo de cada atendimento e a forma  (meio) que será realizada a sessão (plataformas de redes sociais).<br>
+                    Alguns benefícios podem ser constatados na modalidade online, como por exemplo: facilitação à comunicação,  maior flexibilidade de horários, oferece mais praticidade e dinamismo, evita deslocamentos desnecessários e ideal para os períodos em que o paciente não pode se deslocar.<br>
+                    Você que sempre pensou em fazer terapia, mas não tem tempo em horário comercial ou convencionais, entre e contato para verificarmos a possibilidade de horários. E que assim você possa começar o quanto antes sua jornada rumo a suas  autodescobertas!</p>
+                    <a href="#contatos" class="btn">Agendar Agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Differentials Section >>> -->
+    <section class="diferenciais" id="diferenciais">
+        <h1 class="heading">Meus <span>Diferenciais</span></h1>
+        <div class="box_content">
+            <div class="box">
+                <h3>Empatia</h3>
+                <p>(Entende e acolhe a dor do outro)</p>
+            </div>
+            <div class="box">
+                <h3>Experiência</h3>
+                <p>(Especialista no que faz)</p>
+            </div>
+            <div class="box">
+                <h3>Conhecimento</h3>
+                <p>(Mais de 20 anos de estudo)</p>
+            </div>
+            <div class="box">
+                <h3>Ética</h3>
+                <p>(Respeito à pessoa humana)</p>
+            </div>
+        </div>
+    </section>
+    <!-- Treatments Section >>> -->
+    <section class="atendimentos" id="atendimentos">
+        <h1 class="heading">Meus <span>Atendimentos</span></h1>
+        <div class="box_content">
+            <div class="box">
+                <div class="title">
+                  <h2>Psicóloga Clínica</h2>  
+                </div>
+                <h3>Esp. na TCC (Terapia Cognitiva e Comportamental).</h3>
+                <br><p><span>Tipo de Atendimento:</span> Individual, presencial ou virtual.</p>
+                <p><span>Público:</span> Adolescentes e adultos.</p>
+                <p><span>Abordagem:</span> Conduz o processo terapêutico de forma individualizada à luz da TCC, buscando junto com seu paciente o entendimento de suas questões psíquicas, alívio sintomático e o seu crescimento emocional. Tudo isso com ética e respeito pela pessoa humana.</p>
+                <p><span>Seu lema é:</span> Conhecer todas as teorias, dominar todas as técnicas, mas, ao tocar uma alma humana, ser apenas outra alma humana”.</p>
+                </p>
+            </div>
+            <div class="box">
+                <div class="title">
+                  <h2>Neuropsicóloga</h2>  
+                </div>
+                <h3>Esp. em Avaliação Neuropsicológica.</h3>
+                <br><p><span>Tipo de Atendimento:</span> Individual e presencial.</p>
+                <p><span>Público:</span> Crianças, Adolescentes e Adultos</p>
+                <p><span>Abordagem:</span> Conduz o processo Neuropsicológico à luz da ética da psicologia com ferramentas consideradas favoráveis pelo CRP.</p>
+                <button class="btn" id="btn7" onclick="openModal('modal7')">Saber Mais</button>
+                </p>
+            </div>
+            <div id="modal7" class="modal">
+                <div class="modal_box">
+                    <span class="close" onclick="closeModal('modal7')">&times;</span>
+                    <ul>
+                        <li>• Faz uma ampla investigação social: (mãe buscando informações da gravidez, do parto e da infância do avaliado(a)). Se necessário, fez a investigação com professores ou outros profissionais que o atenda, como psicólogo, por exemplo.</li>
+                        <li>• Experiente na aplicação de vários testes neuropsicológicos.</li>
+                        <li>• Acolhedora: Faz o paciente se sentir bem e acolhe suas dores emocionais.</li>
+                        <li>• Faz dois testes adicionais  de personalidade e de dinâmica emocional, pois entende que ajuda no processo de rastreio. </li>
+                        <li>• Faz os testes de rastreio visando analisar a cognição e as funções executivas do avaliado (a).</li>
+                        <li>• Faz uma devolutiva humanizada, onde, não é apenas uma entrega de diagnóstico, é uma conversa de orientação e de acolhimento à pessoa sobre suas potencialidades, principalmente.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Utils Section >>> -->
+    <section class="dicas" id="dicas">
+        <h1 class="heading">Minhas <span>Dicas</span></h1>
+        <div class="box_content">
+            <div class="box" onclick="mostrar_dica(this,0)">
+                <div class="inner">
+                    <div class="front"><h3>Mostrar Dica</h3></div>
+                    <div class="back"><h3></h3></div>
+                </div>
+            </div>
+            <div class="box" onclick="mostrar_dica(this,1)">
+                <div class="inner" id="i2">
+                    <div class="front"><h3>Mostrar Dica</h3></div>
+                    <div class="back"><h3></h3></div>
+                </div>
+            </div>
+            <div class="box" onclick="mostrar_dica(this,2)">
+                <div class="inner">
+                    <div class="front"><h3>Mostrar Dica</h3></div>
+                    <div class="back"><h3></h3></div>
+                </div>
+            </div>
+            <div class="box" onclick="mostrar_dica(this,3)">
+                <div class="inner">
+                    <div class="front"><h3>Mostrar Dica</h3></div>
+                    <div class="back"><h3></h3></div>
+                </div>
+            </div>
+            <div class="box" onclick="mostrar_dica(this,4)">
+                <div class="inner">
+                    <div class="front"><h3>Mostrar Dica</h3></div>
+                    <div class="back"><h3></h3></div>
+                </div>
+            </div>
+            <div class="box" onclick="mostrar_dica(this,5)">
+                <div class="inner">
+                    <div class="front"><h3>Mostrar Dica</h3></div>
+                    <div class="back"><h3></h3></div>
+                </div>
+            </div>
+            <div class="box" onclick="mostrar_dica(this,6)">
+                <div class="inner">
+                    <div class="front"><h3>Mostrar Dica</h3></div>
+                    <div class="back"><h3></h3></div>
+                </div>
+            </div>
+            <div class="box" onclick="mostrar_dica(this,7)">
+                <div class="inner">
+                    <div class="front"><h3>Mostrar Dica</h3></div>
+                    <div class="back"><h3></h3></div>
+                </div>
+            </div>
+            <div class="box" onclick="mostrar_dica(this,8)">
+                <div class="inner">
+                    <div class="front"><h3>Mostrar Dica</h3></div>
+                    <div class="back"><h3></h3></div>
+                </div>
+            </div>
+            <div class="box" onclick="mostrar_dica(this,9)">
+                <div class="inner">
+                    <div class="front"><h3>Mostrar Dica</h3></div>
+                    <div class="back"><h3></h3></div>
+                </div>
+            </div>
+            <div class="box" onclick="mostrar_dica(this,10)">
+                <div class="inner">
+                    <div class="front"><h3>Mostrar Dica</h3></div>
+                    <div class="back"><h3></h3></div>
+                </div>
+            </div>
+            <div class="box" onclick="mostrar_dica(this,11)">
+                <div class="inner">
+                    <div class="front"><h3>Mostrar Dica</h3></div>
+                    <div class="back"><h3></h3></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contacts Section >>> -->
+    <section class="contatos" id="contatos">
+        <h1 class="heading">Meus <span>Contatos</span></h1>
+        <div class="icons_content">
+            <div class="icons">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Meu email</h3>
+                <p>psipatricia.souza@hotmail.com</p>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Meu Telefone</h3>
+                <p>(84) 99109-0634</p>
+            </div>
+            <div class="icons">
+                <i class="fa-brands fa-instagram" style="font-size: 2.8rem"></i>
+                <h3>Meu instagram</h3>
+                <p>@patriciasouzapsi_</p>
+            </div>
+        </div>
+        <div class="content">
+            <form id="forms" action="">
+                <input type="text" class="box" id="name" name="nome" placeholder="Digite seu nome" required>
+                <input type="email" class="box" name="email" placeholder="Digite seu email" required>
+                <input type="number" class="box" name="telefone" placeholder="Digite seu telefone" required>
+                <textarea name="mensagem" id="text" placeholder="Digite sua mensagem" cols="30" rows="5" required></textarea>
+                <input type="submit" class="btn" value="Enviar">
+            </form>
+            <div class="image">
+                <img src="Images/qr_code.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
